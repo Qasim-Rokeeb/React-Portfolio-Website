@@ -24,6 +24,7 @@ const About = () => {
                 </form>
             </div>
         </div>
+          <p className='font-semibold text-center mt-6'>&copy; 2025 Qasim Rokeeb, Front-end Developer.</p>
     </div>
   )
 }

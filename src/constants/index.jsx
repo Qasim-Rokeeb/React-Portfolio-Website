@@ -28,3 +28,20 @@ export const featuredProjects = [
     },
         
 ];
+export const experience = [
+    {
+        role: "Freelance Developer",
+        company : "Orion Tech",
+        duration : "Nov 23 - Present",
+        description : "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+
+    },
+      
+    {
+        role: "Front-End Intern",
+        company : "Roos Tech",
+        duration : "Sep 2023 — Nov 2024",
+        description :"Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    }
+
+]

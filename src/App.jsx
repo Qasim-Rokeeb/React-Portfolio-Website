@@ -1,22 +1,21 @@
-import React from 'react'
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import Features from './components/Features'
-import About from './components/About'
-import Footer from './components/Footer'
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+import About from "./pages/About";
 
 const App = () => {
   return (
-    <>
-    <Navbar />
-    <div className='max-w-7xl mx-auto pt-20 px-6'>
-    <Hero />
-    <Features />
-    <About />
-    <Footer />
-    </div>
-    </>
-  )
-}
+    <Router>
+      <Navbar />
+      <div className="max-w-7xl mx-auto pt-20 px-6">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+      </div>
+    </Router>
+  );
+};
 
-export default App
+export default App;

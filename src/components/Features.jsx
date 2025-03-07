@@ -6,7 +6,7 @@ import { featuredProjects } from "../constants";
 
 const Features = () => {
   return (
-    <div className='mt-20 border-t border-neutral-700/80 w-full' id='features'>
+    <div className='mt-20 border-t border-b py-11 border-neutral-700/80 w-full' id='features'>
         <div className='max-w-xl' >
             <h1 className='text-3xl sm:text-5xl md:text-7xl font-bebasneue mt-10'>Featured Projects</h1>
             <p className='text-neutral-400'>Here are some of the selected projects that showcase my passion for front-end development.</p>

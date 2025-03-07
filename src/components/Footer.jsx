@@ -16,10 +16,10 @@ const About = () => {
             </div>
             <div className=''>
                 <form action="">
-                    <label htmlFor="" className='block mb-2 font-light'>Name</label><input type="text"  className='bg-neutral-800 w-full rounded-sm h-10 mb-6'/>
-                    <label htmlFor="" className='block mb-2 font-light'>Email</label><input type="email" className='bg-neutral-800 w-full rounded-sm h-10 mb-6' />
-                    <label htmlFor="" className='block mb-2 font-light'>Subject</label><input type="text"  className='bg-neutral-800 w-full rounded-sm h-10 mb-6'/>
-                    <label htmlFor="" className='block mb-2 font-light'>Messaget</label><textarea name=""  className='block bg-neutral-800 w-full rounded-sm h-24 mb-6' id=""></textarea>
+                    <label htmlFor="" className='block mb-2 font-light'>Name</label><input type="text"  className='bg-neutral-800 w-full rounded-md h-10 mb-6'/>
+                    <label htmlFor="" className='block mb-2 font-light'>Email</label><input type="email" className='bg-neutral-800 w-full rounded-md h-10 mb-6' />
+                    <label htmlFor="" className='block mb-2 font-light'>Subject</label><input type="text"  className='bg-neutral-800 w-full rounded-md h-10 mb-6'/>
+                    <label htmlFor="" className='block mb-2 font-light'>Messaget</label><textarea name=""  className='block bg-neutral-800 w-full rounded-md h-24 mb-6' id=""></textarea>
                     <button className='bg-brandYellow font-semibold text-[15px] text-black py-3 px-7 rounded-full uppercase'>Submit</button>
                 </form>
             </div>

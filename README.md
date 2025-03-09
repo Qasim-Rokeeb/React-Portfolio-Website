@@ -35,4 +35,3 @@ This project is deployed on **Netlify**. You can also deploy it on other platfor
 ## 📞 Contact
 For inquiries or feedback, feel free to reach out:
 - **Email:** qasimrokeeb@gmail.com
-ti

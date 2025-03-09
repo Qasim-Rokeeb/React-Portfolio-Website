@@ -15,7 +15,7 @@ Follow these steps to set up the project locally:
 
 ```sh
 # Clone the repository
-git clone https://github.com/Qasim-Rokeeb/react-tailwind-portfolio.git
+git clone https://github.com/Qasim-Rokeeb/React-Portfolio-Website.git
 cd react-tailwind-portfolio
 
 # Install dependencies

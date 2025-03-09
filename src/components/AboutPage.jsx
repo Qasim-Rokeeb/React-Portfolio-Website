@@ -24,7 +24,7 @@ const About = () => {
             Back to home page
           </Link>
           <div className='mt-6 flex space-x-4'>
-             <a href="" className='uppercase px-4 py-2 bg-brandYellow text-black rounded-full font-semibold'>Download Resume </a>
+             <a href="/Def.pdf" download="Resume" className='uppercase px-4 py-2 bg-brandYellow text-black rounded-full font-semibold'>Download Resume </a>
              <div className='inline-flex justify-center items-center text-brandYellow h-12 w-12 bg-neutral-700 p-2 rounded-full'>
               <FaLinkedinIn />
               </div>

@@ -1,10 +1,12 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import aboutImage from "../assets/about_image.png"
+import {motion } from "framer-motion";
 
 const About = () => {
   return (
-    <div className='mt-10 mb-6 py-28 border-neutral-400' id='about'>
+    <div 
+    className='mt-10 mb-6 py-28 border-neutral-400' id='about'>
         <div className='grid grid-cols-1 md:grid-cols-2'>
              <div> 
                 <h1 className='text-4xl md:text-8xl sm:text-5xl font-bebasneue'>About Me</h1>
